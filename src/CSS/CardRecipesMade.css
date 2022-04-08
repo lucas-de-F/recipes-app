@@ -1,0 +1,119 @@
+.card-recipes-made-container {
+  background-color: #2f8e8e;
+  display: flex;
+  margin: 10px;
+  max-width: 340px;
+  overflow-wrap: anywhere;
+  padding: 0 5px 0 0;
+}
+
+.card-recipes-made-date:before {
+  content: 'Feita em: ';
+}
+
+.card-recipes-made-container div:nth-child( n+1 ) {
+  align-self: center;
+}
+
+.card-recipe {
+  background-color: #2f8e8e;
+  border-radius: 5px;
+  display: flex;
+  margin: 10px;
+  max-width: 340px;
+  overflow-wrap: anywhere;
+  padding: 0 5px 0 0;
+}
+
+.card-recipe:nth-child( 2n ) {
+  background-color: #6ec5c5;
+}
+
+.card-recipes-made-container div:nth-child( 3 ) {
+  margin: 0 0 0 auto;
+}
+
+.card-recipes-made-category:nth-child( 1 ) {
+  color: white;
+}
+
+.card-recipes-made-container:nth-child( 2n ) {
+  background-color: #6ec5c5;
+  color: black;
+}
+
+.infos-content {
+  margin: 0 20px;
+}
+
+.card-recipes-made-thumb {
+  height: 129px;
+  width: 120px;
+}
+
+.card-recipes-made-share {
+  justify-items: flex-end;
+  width: 25px;
+}
+
+.card-recipes-made-tags {
+  background-color: #d9952f;
+  border-radius: 20px;
+  margin: 4px 3px;
+  overflow-wrap: normal;
+  padding: 5px;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 150px;
+  overflow-x: auto;
+}
+
+.card-recipes-favorite-category {
+  color: white;
+}
+
+.card-recipe .text {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.options-button {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15%;
+  width: 162px;
+}
+
+.options-button button {
+  height: 40px;
+  width: 40px;
+}
+
+.options-button button image {
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  display: inline;
+}
+
+.text p {
+  font-size: 17px;
+}
+
+.card-recipes-favorite-title {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.imageCard-favorites img {
+  border-radius: 5px 0 0 5px;
+  height: 100%;
+  width: 140px;
+}

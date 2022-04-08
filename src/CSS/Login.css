@@ -1,0 +1,69 @@
+.Form-Login-content {
+  align-items: center;
+  background-image: url('../images/login_fundo.webp');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  text-shadow: 1px 1px 0 #c4e7f7;
+  text-transform: uppercase;
+}
+
+html {
+  min-height: 100vh;
+}
+
+.email-input, .password-input {
+  box-shadow: 5px 5px 15px 5px black;
+  display: block;
+  font-size: 20px;
+  opacity: 0.5;
+  padding: 0.25em 1em;
+}
+
+.email-input:focus, .password-input:focus {
+  opacity: 0.7;
+  outline: 0.1em solid #2ab87d;
+}
+
+button:disabled {
+  animation: exemplo 3s infinite;
+  animation-timing-function: ease-in-out;
+  background: #f34f74;
+  color: white;
+  opacity: 0.6;
+}
+
+@keyframes exemplo {
+
+  0% { transform: translateX(2%);}
+
+  25% { transform: translateX(-2%);}
+
+  50% { transform: translateX(2%);}
+
+  75% { transform: translateX(-2%);}
+
+  100% { transform: translateX(2%);}
+
+}
+
+[ data-testid = 'login-submit-btn' ] {
+  background: #2ab87d;
+  border-radius: 5px;
+  margin-top: 3%;
+  opacity: 0.9;
+  padding: 0.75em 1.25em;
+  transition: 0.5s;
+}
+
+.Image-Login {
+  margin-top: 25%;
+}
+
+form {
+  border: 1px solid #f34f74;
+}

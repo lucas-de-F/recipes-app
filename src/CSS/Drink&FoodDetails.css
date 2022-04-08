@@ -1,0 +1,136 @@
+.ingredients li span {
+  margin: 5px;
+}
+
+li input:checked ~ span {
+  text-decoration: line-through;
+}
+
+.ingredientes, .instructions, .recomedations {
+  background-color: rgba(255, 255, 255);
+  border-radius: 5px;
+  margin: 2%;
+  opacity: 0.8;
+  padding: 5%;
+}
+
+li {
+  list-style: none;
+}
+
+.info-share-favorites {
+  border-radius: 5px 5px 0 0;
+  margin: 2% 2% 0;
+}
+
+.options {
+  border-radius: 0 0 5px 5px;
+  justify-content: flex-end;
+  margin: 0 2% 2%;
+}
+
+.options button {
+  margin-left: 20px;
+}
+
+.info-share-favorites, .options {
+  background-color: rgba(255, 255, 255);
+  opacity: 0.8;
+  padding: 3px 6%;
+  text-align: center;
+}
+
+.finisher-link {
+  margin: 0;
+  position: fixed;
+  right: -5%;
+  top: 90%;
+  transition: 0.5s;
+}
+
+.finisher-link button {
+  height: 10vh;
+  width: 105vw;
+}
+
+.StartButton button {
+  animation: exemplo 3s infinite;
+  animation-timing-function: ease-in-out;
+  background: #f34f74;
+  color: white;
+  height: 10vh;
+  opacity: 0.8;
+  width: 105vw;
+}
+
+@keyframes exemplo {
+
+  0% { transform: translateX(2%);}
+
+  25% { transform: translateX(-2%);}
+
+  50% { transform: translateX(2%);}
+
+  75% { transform: translateX(-2%);}
+
+  100% { transform: translateX(2%);}
+
+}
+
+.finisher-link button:disabled {
+  opacity: 0.95;
+  transition: 0.5s;
+}
+
+.StartButton {
+  position: fixed;
+  right: -5%;
+  top: 90%;
+}
+
+.finisher-link button:enabled {
+  background: rgb(52, 201, 22);
+  opacity: 0.9;
+  transition: 0.5s;
+}
+
+.finisher-link a {
+  padding: 5px;
+}
+
+.recomedations {
+  display: flex;
+  flex-direction: column;
+}
+
+.recomedations img {
+  width: 100%;
+}
+
+.carousel-recomentations {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.video {
+  margin: 2%;
+}
+
+iframe {
+  width: 100%;
+}
+
+.carousel-recomentations div {
+  background-color: #571089;
+  border-radius: 5px;
+  color: white;
+  margin: 4px;
+  min-width: 45vw;
+  opacity: 0.95;
+  text-shadow: 3px 3px 1px black , 1px 1px 1px yellow;
+}
+
+.carousel-recomentations div h3, .carousel-recomentations div h4 {
+  margin: 0 2px;
+  overflow: hidden;
+}

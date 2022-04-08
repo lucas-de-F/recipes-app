@@ -1,0 +1,46 @@
+body {
+  background-attachment: fixed;
+  background-image: url('./images/login_fundo.webp');
+  background-position: center;
+  background-position-y: -45px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  background: content-box;
+}
+
+.loader {
+  align-self: center;
+  animation: spin 2s linear infinite;
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-radius: 50%;
+  border-top: 16px solid #3498db; /* Blue */
+  height: 95px;
+  margin-top: 10px;
+  width: 95px;
+}
+
+header {
+  min-height: 59px;
+}
+
+@keyframes spin {
+
+  0% { transform: rotate(0deg); }
+
+  100% { transform: rotate(360deg); }
+}
+
+body:before {
+  background-color: aliceblue;
+  content: '';
+  height: 100%;
+  opacity: 60%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}

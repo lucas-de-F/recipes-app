@@ -1,0 +1,65 @@
+header {
+  align-items: center;
+  background-color: #2f8e8e;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  text-align: center;
+}
+
+header div {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px;
+  width: 100%;
+}
+
+[ data-testid = 'search-input' ] {
+  box-shadow: 1px 3px 12px 3px black;
+  display: block;
+  opacity: 0.7;
+  outline: 0.1em solid #212222;
+  padding: 5px;
+  width: 100%;
+}
+
+.Input-Buttons {
+  background: #2f8e8e;
+  position: absolute;
+  right: 0;
+  top: 54px;
+  width: 360px;
+}
+
+[ data-testid = 'exec-search-btn' ] {
+  background: white;
+  border: 0 solid #212222;
+  border-radius: 5px;
+  box-shadow: 1px 3px 12px 3px black;
+  display: block;
+  margin-bottom: 3px;
+  opacity: 0.9;
+  outline-color: #212222;
+  padding: 0.25em 0.75em;
+  transition: 0.5s;
+  width: 100px;
+}
+
+label {
+  margin-right: 4px;
+  margin-top: 4px;
+}
+
+[ data-testid = 'profile-top-btn' ] {
+  background-color: #2f8e8e;
+}
+
+[ data-testid = 'page-title' ] {
+  margin: 0;
+}
+
+[ type = 'submit' ] {
+  background-color: #2f8e8e;
+}

@@ -1,0 +1,60 @@
+.mini-card-food-container {
+  margin: 15px 10px;
+}
+
+.page-food-container {
+  margin-bottom: 15px;
+}
+
+.mini-card-food-container section {
+  align-items: center;
+  background-color: #17a9a9;
+  border-radius: 20px;
+  box-shadow: 1px 3px 12px 3px #535353;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mini-card-food-container img {
+  border-radius: 20px 20px 0 0;
+  height: 200px;
+  margin: auto;
+  width: 100%;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.content {
+  margin-bottom: 60px;
+  padding: 0 30px;
+}
+
+.filters {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filters button {
+  background: currentColor;
+  background-color: #d9952f;
+  border-radius: 20px;
+  margin: 4px auto;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  padding: 5px;
+  width: 30%;
+}
+
+.recomendations img {
+  width: 100%;
+}

@@ -1,0 +1,41 @@
+.profile-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+[ data-testid = 'profile-email' ] {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 9px;
+  width: 100%;
+}
+
+.profile-content .links {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.profile-content .email {
+  opacity: 0.8;
+  width: 100%;
+}
+
+.profile-content .links button {
+  background: currentColor;
+  background-color: #d9952f;
+  border-radius: 5px;
+  color: wheat;
+  font-size: 25px;
+  line-height: 29.3px;
+  margin: 10px 15px;
+  padding: 15px 50px;
+  width: 329px;
+}
